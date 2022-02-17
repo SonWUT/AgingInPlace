@@ -1,0 +1,68 @@
+@import "../Globals/breakpoints.scss";
+
+.resource-instance{
+    width: calc(50% - 1em);
+    font-size : 1em;
+    margin-right : 1em;
+    margin-bottom: 2em;
+    .category{
+        display: flex;
+        margin-bottom: 0.5rem;
+    }
+    
+    @include lg{
+        width: calc(100.00%);
+    }
+    @include md{
+        width: calc(100%);
+    }
+    @include sm{
+        width: calc(100%);
+    }
+    .label{
+        font-size: 1.24444444444em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        display: flex;
+        word-break: break-word;
+        
+    }
+     .website, .email, .phone{
+        font-size: .9em;
+    color: #62cbd5;
+    overflow-wrap: anywhere;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    display: block;
+        &:hover{
+            color:orange;
+        }
+        
+    }
+    .description{
+        font-size :0.9em;
+        color: black;
+        margin-bottom: 0.5em;
+        overflow-wrap: anywhere;
+        font-weight: 600;
+        
+    }
+    span{
+        display: flex;
+        flex: 1;
+    }
+    .quarter-circle-bottom-right{
+        margin-right: 0.5em;
+        width: 1.2em;
+        height: 1.2em;
+        background: orange;
+        border-radius: 1.2em 0 0 0;
+        -moz-border-radius: 1.2em 0 0 0;
+        -webkit-border-radius: 1.2em 0 0 0;
+    }
+    .description{
+        
+    }
+    
+}

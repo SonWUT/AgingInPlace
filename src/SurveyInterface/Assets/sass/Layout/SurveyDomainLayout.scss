@@ -1,0 +1,19 @@
+@import "../Globals/breakpoints.scss";
+.survey-domain-layout{
+    width:100%;
+    .inner-layout {
+        .top-container-header{
+            max-width: calc(1280px + 2rem);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 3rem;
+            .MuiGrid-grid-xs-12, .MuiGrid-grid-sm-12{
+                @include sm{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

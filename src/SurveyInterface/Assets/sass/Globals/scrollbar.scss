@@ -1,0 +1,25 @@
+@mixin scrollbars($size, $foreground-color, $background-color,$margin-bottom: 
+mix($foreground-color, white,  50%)) {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    &::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: $background-color;
+      margin-bottom: $margin-bottom;
+      
+    }
+  
+    // For Internet Explorer
+    & {
+      scrollbar-face-color: $foreground-color;
+      scrollbar-track-color: $background-color;
+    }
+  }

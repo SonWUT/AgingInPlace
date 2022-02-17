@@ -1,0 +1,15 @@
+<svg version="1.1" id="StartButtonId" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 159 131" style="enable-background:new 0 0 159 131;" xml:space="preserve">
+<style type="text/css">
+	#StartButtonId .st0{fill:#F5685A;}
+	#StartButtonId .st1{fill:#F8B411;}
+	#StartButtonId:hover .st0{fill:#62CBD5;}
+	#StartButtonId:hover .st1{fill:#002F53;}
+</style>
+<g id="Component_13_1" transform="translate(0 2.539)">
+	<path id="Polygon_7" class="st0" d="M109.9,63L2.4,125.1V0.8L109.9,63z"/>
+	<g transform="matrix(1, 0, 0, 1, 0, -2.54)">
+		<path id="Polygon_8-2" class="st1" d="M157,65.5L49.5,127.6V3.4L157,65.5z"/>
+	</g>
+</g>
+</svg>

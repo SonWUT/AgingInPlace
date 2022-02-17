@@ -1,0 +1,54 @@
+@import "../Globals/breakpoints.scss";
+.pre-interview-layout{
+    height: 100%;
+    width: 100%;
+    @include sm{
+
+    }
+    .inner-layout{
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        .top-header{
+            max-width: calc(1280px + 2rem);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin-right: auto;
+            margin-left: auto;
+            width:100%;
+            margin-top: 1rem;
+            margin-bottom:1rem;
+
+
+        }
+        .MuiGrid-container{
+            height:100%;
+            .MuiGrid-item{ 
+                height:100%;
+                @include xl{
+                    margin-bottom: 0px;
+                }
+                @include lg{
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+                @include md{
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+                @include sm{
+                    margin-bottom: 20px;
+                }
+              &.questions-container-item{
+                  padding-top: 2.5%;
+              }
+            }
+        }
+    }
+}
+
+
+
+
+

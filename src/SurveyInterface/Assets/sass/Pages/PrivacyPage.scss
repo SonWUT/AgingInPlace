@@ -1,0 +1,96 @@
+@import "../Globals/breakpoints.scss";
+.privacy-page{
+    .start-buttton-container{
+        width:100%;
+        position: absolute;
+        bottom: 0;
+        .inner{
+            display:flex;
+        justify-content: flex-end;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+
+        .start-button{
+            font-size: 2rem;
+            line-height: 1em;
+            color:black;
+            text-decoration: none;
+            svg,img{
+                width: 5rem;
+                height: 5rem;
+                margin-left: 1.5rem;
+                transition: all 1s;
+                & *{
+                    transition: all 0.5s;
+                }
+                
+            }
+        }
+        }
+        
+    }
+    
+    .page-background{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top:0;
+        img,svg{
+            height:100%;
+            width:100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    
+    .inner-info{
+        max-width: calc(100vw * 0.69973958333);
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+        @include lg{
+            max-width: calc(100vw * 0.49973958333);
+        }
+        @include md{
+            max-width: calc(100vw * 0.69973958333);
+        }
+        @include sm{
+            max-width: calc(100vw * 0.89973958333);
+        }
+        .logo{
+            width:100%;
+
+        }
+
+        .info{
+            font-size: calc(0.01616161616 * 100vw);
+            color :#000000;
+            line-height: 1.43076923077em;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;;
+            text-align: center;
+            margin-top: 1.23076923077em;
+            @include lg{
+                font-size: calc(0.01384166666 * 100vw);
+            }
+            @include md{
+                font-size: calc(0.01914166666 * 100vw);
+            }
+            @include sm{
+                font-size: calc(0.04914166666 * 100vw);
+            }
+        }
+
+    }
+}

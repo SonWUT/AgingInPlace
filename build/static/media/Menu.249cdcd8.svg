@@ -1,0 +1,25 @@
+
+<svg version="1.1" id="toggle-menu-id" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 84.5 94" style="enable-background:new 0 0 84.5 94;" xml:space="preserve">
+<style type="text/css">
+	#toggle-menu-id .st0{fill:#636C89;}
+	#toggle-menu-id .st1{fill:#62CBD5;}
+	#toggle-menu-id .st2{fill:#F9AC56;}
+	#toggle-menu-id .st3{enable-background:new    ;}
+	#toggle-menu-id .st4{fill:#3BAF78;}
+	#toggle-menu-id .st5{fill:none;stroke:#3BAF78;stroke-width:2;}
+</style>
+<path id="Intersection_25" class="st0" d="M65.7,25.8h-24v-24C55,1.8,65.7,12.6,65.7,25.8z"/>
+<rect id="Rectangle_301" x="41.7" y="30.8" class="st1" width="24" height="24"/>
+<path id="Polygon_9" class="st2" d="M25.7,1.8l12,24h-24L25.7,1.8z"/>
+<g class="st3">
+	<path class="st4" d="M5.3,88.8H2.3V70.6h4.8l5.5,11.4L18,70.6h4.8v18.2h-3.1V74.6l-6.3,12.6h-1.7L5.3,74.6V88.8z"/>
+	<path class="st4" d="M40.6,70.6v2.9h-9.7v4.8h8.7v2.7h-8.7v4.9h10v2.9H27.8V70.6H40.6z"/>
+	<path class="st4" d="M58.5,70.6h3.1v18.2h-3.3L47.9,75.6v13.3h-3.1V70.6h3.1l10.6,13.6V70.6z"/>
+	<path class="st4" d="M70.7,84.7c0.8,1,2,1.5,3.4,1.5c1.4,0,2.5-0.5,3.4-1.5s1.2-2.3,1.2-4V70.6h3.1v10.2c0,2.6-0.7,4.6-2.2,6
+		C78.1,88.3,76.3,89,74,89c-2.3,0-4.1-0.7-5.5-2.1c-1.4-1.4-2.2-3.4-2.2-6V70.6h3.1v10.1C69.4,82.4,69.8,83.7,70.7,84.7z"/>
+</g>
+<line id="Line_3" class="st5" x1="0.2" y1="64.3" x2="84.2" y2="64.3"/>
+<path id="Rectangle_305" class="st4" d="M25.7,30.8L25.7,30.8c6.6,0,12,5.4,12,12l0,0c0,6.6-5.4,12-12,12l0,0c-6.6,0-12-5.4-12-12
+	l0,0C13.7,36.2,19.1,30.8,25.7,30.8z"/>
+</svg>

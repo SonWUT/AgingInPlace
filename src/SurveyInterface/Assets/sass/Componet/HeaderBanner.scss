@@ -1,0 +1,26 @@
+@import "../Globals/breakpoints.scss";
+.header-banner{
+    display: block;
+    width: 100%;
+    cursor: auto;
+    .inner-container{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        img.mobile{
+            display:none;
+        }
+        @include sm{
+            img.mobile{
+                display:block;
+            }
+            img.mobile ~ img{
+                display:none;
+            }
+        }
+    }
+    margin-bottom: 2rem;
+}

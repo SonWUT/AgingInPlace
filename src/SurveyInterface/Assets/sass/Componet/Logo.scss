@@ -1,0 +1,28 @@
+@import "../Globals/breakpoints.scss";
+.logo-container{
+    display: flex;
+    align-items:center;
+    width: 100%;
+    cursor:auto;
+    img{
+        width: 100%;
+    }
+    
+    @include lg{
+        max-width: 70%;
+        margin: auto;
+       
+    }
+    
+    @include md{
+        max-width: 70%;
+        margin: auto;
+       
+    }
+    @include sm{
+        max-width: 80%;
+        margin: auto;
+       
+    }
+    
+}

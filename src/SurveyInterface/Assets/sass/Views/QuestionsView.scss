@@ -1,0 +1,13 @@
+.question-view{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width:100%;
+    flex-direction: column;
+    .main-question-contanier{
+        width:100%;
+    }
+}

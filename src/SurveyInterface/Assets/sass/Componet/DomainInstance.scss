@@ -1,0 +1,69 @@
+.domain-instace-container{
+    width: calc(50% - 1em);
+    border: 1px solid black;
+    border-radius : 0.25rem;
+    position: relative;
+    font-size:1rem;
+    transition: all 0.5s;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    & *{
+        transition: all 0.5s;
+    }
+    .selection-box{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1.5em;
+        height: 1.5em;
+        border: 3px solid black;
+        border-radius: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        svg{
+            transform: scale(1.8) translateX(0.11111111111em) translateY(-0.11111111111em);
+        }
+       
+
+    }
+
+
+    .image-container{
+        height: 7rem;
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        &.selected{
+            svg *{
+                    fill:white;
+                
+            }
+        }
+        svg{
+            width:100%;
+            height:100%;
+            & *{
+                fill:black;
+            }
+        }
+    }
+    .info{
+        padding :1rem;
+        .header{
+            text-align: center;
+            color: black;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        .description{
+            font-size: 0.7rem;
+            text-align: center;
+        }
+        
+    }
+
+}
