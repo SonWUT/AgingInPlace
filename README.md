@@ -1,8 +1,8 @@
 ## Technical stack:
 Frontend: React (JSX)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Environment: Node 16
-Backend: None
+Environment: Node 16 <br>
+Backend: None <br>
 Database: None
 
 ## Development step
